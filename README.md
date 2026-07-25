@@ -1,12 +1,29 @@
-# Capstone Project
+# simple-node-app
 
-## Description
-This project is part of my AI-assisted development track.
+A minimal Node.js HTTP server with no external dependencies.
 
-## Tech Stack
-- Node.js
-- Git
-- Cursor / Claude Code
+## Requirements
 
-## Setup
-Instructions coming soon.
+- Node.js 18 or newer
+
+## Run
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000). Health check: [http://localhost:3000/health](http://localhost:3000/health).
+
+## Development
+
+Auto-restart on file changes (Node 18+):
+
+```bash
+npm run dev
+```
+
+## Environment
+
+| Variable | Default | Description        |
+| -------- | ------- | ------------------ |
+| `PORT`   | `3000`  | HTTP listen port   |
